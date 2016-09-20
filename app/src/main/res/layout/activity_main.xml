@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.qjm3662.jpushtest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.example.qjm3662.jpushtest.EasyButton
+        android:id="@+id/sb_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Submit"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="1000"
+        app:sub_btn_line_color="@color/green"
+        app:sub_btn_ripple_color="@color/green" />
+</RelativeLayout>
